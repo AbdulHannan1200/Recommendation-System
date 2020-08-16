@@ -11,7 +11,7 @@ This is basically recommender system for e-commerce website, dataset consist of 
 We used machine learning and deep learning models for the prediction, and the most important point which should be noted that we achieve 100% accuracy on testing data which is quite incredible.
 The most important key which leads to achieve that much accuracy is data pre-processing and and analytics.
 The input parameters are :
-`
+
   1. order_id 
   2. product_id
   3. freight_value
@@ -19,14 +19,14 @@ The input parameters are :
   5. sellet_lng
   6. customer_lat 
   7. customer_lng
-`
+
 
 And the output paramters are:
-`
+
   1. review_score
   2. product_category
   3. product_price
-`
+
 
 ### Model Used:
 We used Decision tree for predicting  `review_score` and `product_category`, these both belongs to classification problem.
